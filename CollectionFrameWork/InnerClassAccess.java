@@ -18,6 +18,6 @@ public class InnerClassAccess {
         MainClass mainC = new MainClass();
 //        MainClass.InnerClass innerClass = mainC.new InnerClass();
         MainClass.InnerClass.showInnerClass();
-        mainC.showMainClass();
+        MainClass.showMainClass();
     }
 }

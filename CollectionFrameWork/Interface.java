@@ -1,8 +1,8 @@
 package CollectionFrameWork;
 
 interface  Car{
-public void model();
-public void name();
+void model();
+void name();
 }
 
 class ShowDetails implements  Car{

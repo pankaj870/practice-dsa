@@ -2,7 +2,8 @@ package outerShell;
 
 public class SubArray {
     public static void main(String[] args) {
-        int arr[] = { 15, 2, 4, 8, 9, 5, 10, 23}, sum = 23;
+        int[] arr = { 15, 2, 4, 8, 9, 5, 10, 23};
+        int sum = 23;
         int len = arr.length;
         int numElement = 1;
         int whileLen=len;

@@ -26,11 +26,7 @@ public class ATM_project {
     }
 
     protected static boolean pinCheck(String pin){
-        if(pin.equals("1234")){
-            return  true;
-        }else{
-            return false;
-        }
+        return pin.equals("1234");
     }
     public static void withdrawal(){
         System.out.println("********** Withdrawal **********");

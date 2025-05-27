@@ -2,7 +2,7 @@ package outerShell;
 
 public class allZeroR {
     public static void main(String[] args) {
-        int arr[] = {1, 2, 0, 4, 3,0,-1
+        int[] arr = {1, 2, 0, 4, 3,0,-1
                 , 0, 5, 0};
         int current = 0;
 

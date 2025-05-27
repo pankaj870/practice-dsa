@@ -7,7 +7,7 @@ public class ShoesShope {
     public static int[] sizeOfShoes(int n ) {
     Scanner sc = new Scanner(System.in);
         int count = 0;
-        int ssize[] = new int[n+1];
+        int[] ssize = new int[n+1];
         System.out.println("enter the size of shoes ");
         while(true) {
             int iput = sc.nextInt();
@@ -38,7 +38,7 @@ return map;
     int an = sc.nextInt();
     int total =0;
 // contain size of shoes
-    int  size[] = sizeOfShoes(an);
+    int[] size = sizeOfShoes(an);
 // sells And price of shoes
         System.out.println("enter the number of shoes ");
     int numberCoustomer = sc.nextInt();

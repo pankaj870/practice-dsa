@@ -7,9 +7,7 @@ public class WordCounting {
     String str = "java is a very good java is nice ";
     String[] words = str.split(" ");
     Set<String> unique = new HashSet<>();
-    for(String ele : words){
-        unique.add(ele);
-    }
+        Collections.addAll(unique, words);
 
         System.out.println(unique);
     for(String uq : unique){

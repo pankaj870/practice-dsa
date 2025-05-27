@@ -2,7 +2,7 @@ package outerShell;
 
 public class SecondLargest {
     public static void main(String[] args) {
-        int arr []= {28004 ,23544 ,32504 ,29493 ,17013 ,17850 ,18952 ,12089, 5126 ,10353 , 28500};
+        int[] arr = {28004 ,23544 ,32504 ,29493 ,17013 ,17850 ,18952 ,12089, 5126 ,10353 , 28500};
         int n = arr.length;
         long max = arr[0],prev=0,third=0;
 

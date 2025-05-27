@@ -26,6 +26,6 @@ public class SubArraysFindIN {
         if(list.size()==0){
             System.out.println(-1);
             }else{
-            System.out.print(list);};
+            System.out.print(list);}
     }
 }

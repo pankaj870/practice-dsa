@@ -3,8 +3,8 @@ package CollectionFrameWork;
 import java.util.ArrayList;
 
 class course{
-     String course_name[] = {"C" , "java" ,"python" , "MySql"};
-     int course_price[] = {1000,3000,2000,5000};
+     String[] course_name = {"C" , "java" ,"python" , "MySql"};
+     int[] course_price = {1000,3000,2000,5000};
 }
 
  class showCourse extends course{

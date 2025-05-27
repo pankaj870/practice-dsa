@@ -8,6 +8,6 @@ class Perent{
     }
 
     public static void main(String[] args) {
-        Perent per = new Perent();;
+        Perent per = new Perent();
     }
 }
